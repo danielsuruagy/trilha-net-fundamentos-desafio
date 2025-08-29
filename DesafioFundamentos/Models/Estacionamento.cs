@@ -6,7 +6,6 @@ namespace DesafioFundamentos.Models
         private decimal precoInicial = 5;
         private decimal precoPorHora = 5;
         private List<string> veiculos = new List<string>();
-
         private string padraoPlaca = @"^[A-Z]{3}[0-9][A-Z][0-9]{2}$";  
 
         public Estacionamento(decimal precoInicial, decimal precoPorHora)
